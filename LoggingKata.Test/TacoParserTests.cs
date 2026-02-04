@@ -27,7 +27,7 @@ namespace LoggingKata.Test
         [InlineData("34.9441838, -84.677017, Taco Bell Acwort...", -84.677017)] 
         [InlineData("31.597099, -84.176122, Taco Bell Albany...", -84.176122)]
         [InlineData("33.22997,-86.805275, Taco Bell Alabaste...", -86.805275)]
-        [InlineData("34.7348,-86.633875,Taco Bell Huntsville...", -84.633875)]
+        [InlineData("34.7348,-86.633875,Taco Bell Huntsville...", -86.633875)]
         [InlineData("33.929611,-86.023705, Taco Bell Southside...", -86.023705)]
         
         
@@ -51,7 +51,7 @@ namespace LoggingKata.Test
         [InlineData("34.9441838, -84.677017, Taco Bell Acwort...", 34.9441838)]
         [InlineData("31.597099, -84.176122, Taco Bell Albany ... ",31.597099)]
         [InlineData("33.22997,-86.805275, Taco Bell Alabaste...", 33.22997)]
-        [InlineData("34.7348,-86.633875,Taco Bell Huntsville...",-34.7348)]
+        [InlineData("34.7348,-86.633875,Taco Bell Huntsville...",34.7348)]
         [InlineData("33.929611,-86.023705, Taco Bell Southside...", 33.929611)] 
         
         public void ShouldParseLatitude(string line, double expected)
